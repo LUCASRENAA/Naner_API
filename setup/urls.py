@@ -5,7 +5,7 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 
-router.register('notas', NotaViewSet, basename='Notas')
+router.register('milhares', NotaViewSet, basename='Milhar_Jogo')
 router.register('jogos', JogoViewSet, basename='Jogos')
 
 urlpatterns = [

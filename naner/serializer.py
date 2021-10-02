@@ -1,11 +1,11 @@
 from rest_framework import serializers
-from naner.models import  Nota, Jogo
+from naner.models import  Milhar_Jogo, Jogo
 
 
 
 class NotaSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Nota
+        model = Milhar_Jogo
         fields = '__all__'
 
 
